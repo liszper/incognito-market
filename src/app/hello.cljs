@@ -586,11 +586,11 @@ _
           ]
    
 
-   (if 
-     (:wasm-ready? @state)
-     [wallet-ui]
-     "loading webassembly.."
-     )
+   ;(if 
+   ;  (:wasm-ready? @state)
+   ;  [wallet-ui]
+   ;  "loading webassembly.."
+   ;  )
 [footer] 
    ; [validators memory storage]
 
